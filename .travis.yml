@@ -30,16 +30,9 @@ before_script:
 before_install:
   - TERM=dumb
 
-install:
-  - ./gradlew assemble --stacktrace
-
 script:
   - ./gradlew build connectedCheck --stacktrace
   - ./gradlew build testDebug --stacktrace
-
-branches:
-  only:
-    - master
 
 env:
   global:
