@@ -1,4 +1,17 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.android.application'
+apply plugin: 'sonar-runner'
+
+sonarRunner {
+    sonarProperties {
+        property "sonar.host.url", "http://localhost:9000" // Address of Sonar server
+        property "sonar.sources", "src" // Sources
+        property "sonar.projectName", "Wifidelidade" // Name of your project
+        property "sonar.projectVersion", "0.1-SNAPSHOT" // Version of your project
+        property "sonar.projectDescription", "Projeto TACS-2016 "// Description of your project
+    }
+}
+
 repositories {
     mavenCentral()
 }
