@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_733e549feff8273dd964103bc3d64ef4cf1a107a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_caa559fb67cf581b62e18fdee4a8d6744c17d39e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kleudson\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_4cd4b1bf78a24914fd4eb74d56ee40307264cb89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_950493abfaccce1801010655689dd5e1ddf0f4ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_2092a8d5ba4801607fe092e6ab398acced883dd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_48aeb782c3b210016d2d90984f7a4a1347586727\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_62b907e1d3f8af73a6f6aecc6379b10dadc52ac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_36abce5a7bd219b69243ad3fb1abe678bcb0847a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_d1f8262c78a7c22257602530b9629ea3f5184cc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_be0095041ba00abb9f8c3ebc381d621e0bd3c2a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_35a0081d3932d5ffcf5867fb086ac23357b493ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d4ce6303165f20650850673bd5891fbcca80caae">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.2.0_85a835331b082aafec1a522549e62eb74582cd5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_b7d043e95f5050197470ea7da1d2a155ae3358ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kleudson\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_7daf14b56d7313998dc5c1c5a7ee453b9b442065\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_cf4551b15199e6838b98bf428f850d9e6ac297c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2b50c1e52c3bb566b2d0f837dd2e64548fff69e">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2944e9bdff8b1af76634361b9b388d1551254f72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_0dd8bc1498ecf6cfe80280b0260efdd447493517\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_fee9e8b00a856032191762f004af9aa21d0bcba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_298e1037d15b3ab517afbccf6a400c85ea5cf53a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_2f40aad579d26d6f78c37c0e844beb191b6e0385\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_a3a43d9e4e8d5db9453be19557d07475d524488e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kleudson\.gradle\caches\modules-2\files-2.1\com.h2database\h2\1.4.192\1106492605db135523d2817881cdf029d9292afa\h2-1.4.192.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1106492605db135523d2817881cdf029d9292afa">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\h2-1.4.192_c354241270a9fe94184e8915814551cd370f1964\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c1160c86d44fbb0500c0bdd53348cf5037659e4c">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_504ad44b98eafc742516812dcbbf9e624789198e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Android\WiFiFacil\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="E:\Developer\Android\WiFiFacil\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_ab7b10919e197a8ef23f5f22d015a8ef3f10bc24\classes.dex" />
+    </item>
+
+</items>

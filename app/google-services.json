@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "339122769035",
+    "firebase_url": "https://wifi-facil.firebaseio.com",
+    "project_id": "wifi-facil",
+    "storage_bucket": "wifi-facil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339122769035:android:f91e008cc4b3860a",
+        "android_client_info": {
+          "package_name": "br.ufg.inf.dsdm.kleudson.wififacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339122769035-cl2m9fhjoj9iiupeo6g6cgol217srdbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv6JhvDF8vsI2x6xNzi4F7RN7235k7nt8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
