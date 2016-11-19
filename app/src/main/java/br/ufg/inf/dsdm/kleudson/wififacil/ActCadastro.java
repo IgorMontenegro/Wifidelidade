@@ -1,8 +1,6 @@
 package br.ufg.inf.dsdm.kleudson.wififacil;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -10,10 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
-import java.io.File;
-import java.io.FileOutputStream;
 
 public class ActCadastro extends AppCompatActivity implements View.OnClickListener {
 
@@ -39,10 +33,9 @@ public class ActCadastro extends AppCompatActivity implements View.OnClickListen
     }
 
     public void onClick(View v) {
-        String formatoWiFi = "";
-        formatoWiFi = "WIFI:S:" + edtTxtSSID.getText().toString() + ";";
-        formatoWiFi = formatoWiFi + "T:;";
-        formatoWiFi = formatoWiFi + "P:" + edtTxtSenha.getText().toString() + ";;";
+        String formatoWiFi = "WIFI:S:" + edtTxtSSID.getText().toString() + ";";
+        formatoWiFi += "T:;";
+        formatoWiFi += "P:" + edtTxtSenha.getText().toString() + ";;";
         Intent intent = new Intent(this, ActQrCode.class);
         intent.putExtra("INFORMACOESWIFI",formatoWiFi);
         startActivity(intent);
