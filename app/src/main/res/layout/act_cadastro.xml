@@ -41,8 +41,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/edtTxtSenha"
-                    android:hint="Digite a senha" />
+                    android:id="@+id/edtTxtSSID"
+                    android:hint="Digite o nome da rede WiFi (SSID)" />
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -53,8 +53,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/edtTxtSSID"
-                    android:hint="Digite o nome da rede WiFi (SSID)" />
+                    android:id="@+id/edtTxtSenha"
+                    android:hint="Digite a Senha" />
             </android.support.design.widget.TextInputLayout>
 
             <Button

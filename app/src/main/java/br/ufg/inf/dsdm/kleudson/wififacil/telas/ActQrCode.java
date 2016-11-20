@@ -15,6 +15,7 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
@@ -24,17 +25,20 @@ import br.ufg.inf.dsdm.kleudson.wififacil.R;
 
 public class ActQrCode extends AppCompatActivity {
 
+    public final static int WHITE = 0xFFFFFFFF;
+    public final static int BLACK = 0xFF000000;
+    public final static int WIDTH = 400;
+    public final static int HEIGHT = 400;
+
     protected final static int TIMER_RUNTIME = 4000;
-    protected boolean mbActive;
     protected ProgressBar mProgressBar;
 
     Bitmap bm;
     Bitmap bitmap;
 
     private Toolbar mToolbarBottom;
-    ImageView qrCodeImageview;
-    String QRcode;
-    public final static int WIDTH = 500;
+    ImageView imgQrCode;
+    String qrCode;
 
     @Override
     protected void onCreate(Bundle icicle) {
@@ -69,67 +73,52 @@ public class ActQrCode extends AppCompatActivity {
         });
 
 
-        Toast.makeText(getApplicationContext(), "Gerando QR Code...", Toast.LENGTH_LONG).show();
+
 
         getID();
 
-// create thread to avoid ANR Exception
-        Thread t = new Thread(new Runnable() {
-            @Override
-            public void run() {
-// this is the msg which will be encode in QRcode
-                String formatoWiFi = new String();
-                Bundle bundle = getIntent().getExtras();
-                if (bundle.containsKey("INFORMACOESWIFI")) {
-                    formatoWiFi = bundle.getString("INFORMACOESWIFI");
-                }
-                QRcode = formatoWiFi;
-                try {
-                    synchronized (this) {
-                        wait(4000);
-// runOnUiThread method used to do UI task in main thread.
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                    bitmap = codificarQRCode(QRcode);
-                                    qrCodeImageview.setImageBitmap(bitmap);
+        String formatoWiFi = new String();
+        Bundle bundle = getIntent().getExtras();
+        if (bundle.containsKey("INFORMACOESWIFI")) {
+            formatoWiFi = bundle.getString("INFORMACOESWIFI");
+        }
+        qrCode = formatoWiFi;
 
-                            }
+        try {
+            bitmap = encodeAsBitmap(qrCode);
+            imgQrCode.setImageBitmap(bitmap);
+            Toast.makeText(getApplicationContext(), "QR Code Gerado com Sucesso!!!", Toast.LENGTH_LONG).show();
+        } catch (WriterException e) {
+            e.printStackTrace();
+        }
+    }
 
-                            private Bitmap codificarQRCode(String code){
-                                return codificarQRCode(code);
-                            }
-                        });
+    Bitmap encodeAsBitmap(String str) throws WriterException {
+        BitMatrix result;
+        try {
+            result = new MultiFormatWriter().encode(str, BarcodeFormat.QR_CODE, WIDTH, HEIGHT, null);
+        } catch (IllegalArgumentException iae) {
+            // Unsupported format
+            return null;
+        }
 
-                    }
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+        int width = result.getWidth();
+        int height = result.getHeight();
+        int[] pixels = new int[width * height];
+        for (int y = 0; y < height; y++) {
+            int offset = y * width;
+            for (int x = 0; x < width; x++) {
+                pixels[offset + x] = result.get(x, y) ? BLACK : WHITE;
             }
-        });
-        t.start();
+        }
 
-        final Thread timerThread = new Thread() {
-            @Override
-            public void run() {
-                mbActive = true;
-                try {
-                    int waited = 0;
-                    while (mbActive && (waited < TIMER_RUNTIME)) {
-                        sleep(100);
-                        if (mbActive) {
-                            waited += 100;
-                            updateProgressBar(waited);
-                        }
-                    }
-                } catch (InterruptedException e) {
-                    //Erro
-                } finally {
-                    onContinue();
-                }
-            }
-        };
-        timerThread.start();
+        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+        bitmap.setPixels(pixels, 0, width, 0, 0, width, height);
+
+        mToolbarBottom.inflateMenu(R.menu.menu_bottom);
+
+        return bitmap;
+
 
     }
 
@@ -138,55 +127,10 @@ public class ActQrCode extends AppCompatActivity {
         save();
     }
 
-    public void updateProgressBar(final int timePassed) {
-        if (null != mProgressBar) {
-            final int progress = mProgressBar.getMax() * timePassed / TIMER_RUNTIME;
-            mProgressBar.setProgress(progress);
-        }
-    }
-
-    public void onContinue() {
-        Log.d("Mensagem Final", "Barra de Loading Carregada");
-    }
-
 
     private void getID() {
-        qrCodeImageview = (ImageView) findViewById(R.id.img_qr_code_image);
+        imgQrCode = (ImageView) findViewById(R.id.img_qr_code_image);
     }
-
-    // this is method call from on create and return bitmap image of QRCode.
-    Bitmap encodeAsBitmap(String str) throws WriterException {
-
-        BitMatrix result;
-
-        try {
-            result = new MultiFormatWriter().encode(str, BarcodeFormat.QR_CODE, WIDTH, WIDTH, null);
-        } catch (IllegalArgumentException iae) {
-            // Unsupported format
-            return null;
-        }
-
-        int w = result.getWidth();
-        int h = result.getHeight();
-        int[] pixels = new int[w * h];
-
-        for (int y = 0; y < h; y++) {
-            int offset = y * w;
-            for (int x = 0; x < w; x++) {
-                pixels[offset + x] = result.get(x, y) ? getResources().getColor(R.color.black) : getResources().getColor(R.color.white);
-            }
-
-        }
-
-        Bitmap bitmapPixels = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
-        bitmapPixels.setPixels(pixels, 0, 500, 0, 0, w, h);
-
-        mToolbarBottom.inflateMenu(R.menu.menu_bottom);
-
-        return bitmapPixels;
-    }
-
-    /// end of this method
 
 
     @Override
