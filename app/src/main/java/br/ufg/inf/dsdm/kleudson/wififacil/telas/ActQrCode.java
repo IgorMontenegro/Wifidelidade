@@ -158,7 +158,6 @@ public class ActQrCode extends AppCompatActivity {
         intent.putExtra(android.content.Intent.EXTRA_TEXT, "");
         intent.putExtra(Intent.EXTRA_STREAM, uri);
 
-
         try {
             startActivity(Intent.createChooser(intent, "Salvar ou Compartilhar"));
         } catch (android.content.ActivityNotFoundException ex) {
