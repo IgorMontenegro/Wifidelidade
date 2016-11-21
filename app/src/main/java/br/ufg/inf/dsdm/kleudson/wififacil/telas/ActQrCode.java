@@ -11,6 +11,8 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.RuntimeExecutionException;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
@@ -88,8 +90,11 @@ public class ActQrCode extends AppCompatActivity {
             bitmap = encodeAsBitmap(qrCode);
             imgQrCode.setImageBitmap(bitmap);
             Toast.makeText(getApplicationContext(), "QR Code Gerado com Sucesso!!!", Toast.LENGTH_LONG).show();
-        } catch (WriterException e) {
-            e.printStackTrace();
+        } catch (RuntimeException e) {
+            Toast.makeText(getApplicationContext(), "Não foi possível gerar o QrCode :(", Toast.LENGTH_LONG).show();
+            throw e;
+        } catch (Exception e) {
+            throw new RuntimeExecutionException(e);
         }
     }
 
