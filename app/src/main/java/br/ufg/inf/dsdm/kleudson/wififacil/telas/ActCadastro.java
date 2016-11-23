@@ -60,7 +60,7 @@ public class ActCadastro extends AppCompatActivity implements View.OnClickListen
         Usuario usuario = realm.createObject(Usuario.class);
         campanha.setNome(edtTxtSSID.getText().toString());
         usuario.setNome(edtTxtSenha.getText().toString());
-        usuario.setSenha("teste");
+
         campanha.setUsuario(usuario);
         realm.commitTransaction();
 
