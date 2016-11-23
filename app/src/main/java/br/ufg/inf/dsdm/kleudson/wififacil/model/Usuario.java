@@ -1,12 +1,20 @@
 package br.ufg.inf.dsdm.kleudson.wififacil.model;
 
+import io.realm.RealmObject;
+
 /**
  * Created by Jean on 11/20/16.
  */
 
-public class Usuario {
+
+public class Usuario extends RealmObject{
+
     private String nome;
     private String senha;
+
+    public Usuario() {
+
+    }
 
     public Usuario(String nome, String senha) {
         this.nome = nome;

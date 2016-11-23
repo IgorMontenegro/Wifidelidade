@@ -2,19 +2,27 @@ package br.ufg.inf.dsdm.kleudson.wififacil.model;
 
 import java.util.ArrayList;
 
+import io.realm.RealmList;
+import io.realm.RealmObject;
+
 /**
  * Created by Jean on 11/20/16.
  */
 
-public class Campanha {
+public class Campanha extends RealmObject {
+
     private String Nome;
     private Usuario usuario;
-    private ArrayList<Produto> listaProdutos;
+
+    private RealmList<Produto> listaProdutos;
+
+    public Campanha() {
+    }
 
     public Campanha(String nome, Usuario usuario, ArrayList<Produto> listaProdutos) {
         Nome = nome;
         this.usuario = usuario;
-        this.listaProdutos = listaProdutos;
+      //  this.listaProdutos = listaProdutos;
     }
 
     public String getNome() {
@@ -33,11 +41,11 @@ public class Campanha {
         this.usuario = usuario;
     }
 
-    public ArrayList<Produto> getListaProdutos() {
+    public RealmList<Produto> getListaProdutos() {
         return listaProdutos;
     }
 
-    public void setListaProdutos(ArrayList<Produto> listaProdutos) {
+    public void setListaProdutos(RealmList<Produto> listaProdutos) {
         this.listaProdutos = listaProdutos;
     }
     public void deletarProdutos(){
