@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:fitsSystemWindows="true"
-    tools:context="br.ufg.inf.dsdm.kleudson.wififacil.ActQrCode"
+    tools:context="br.ufg.inf.dsdm.kleudson.wififacil.telas.ActQrCode"
     android:weightSum="1"
     android:background="#FFFFFFFF">
 
