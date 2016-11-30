@@ -34,6 +34,14 @@
         <activity
             android:name=".telas.ActCampanha"
             android:label="@string/title_activity_act_campanha"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".telas.ActProdutos"
+            android:label="@string/title_activity_act_produtos"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".telas.ActUsuario"
+            android:label="@string/title_activity_act_usuario"
             android:theme="@style/AppTheme"></activity>
     </application>
 

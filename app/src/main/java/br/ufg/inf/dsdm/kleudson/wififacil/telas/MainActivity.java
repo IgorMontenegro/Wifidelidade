@@ -159,13 +159,17 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true;
         } else if (id == R.id.ic_produto) {
-            Intent intent = new Intent(this, ActCampanha.class);
+            Intent intent = new Intent(this, ActProdutos.class);
             startActivity(intent);
             return true;
         } else if (id == R.id.ic_pesssoa) {
-
+            Intent intent = new Intent(this, ActUsuario.class);
+            startActivity(intent);
+            return true;
         } else if (id == R.id.ic_campanha) {
-
+            Intent intent = new Intent(this, ActCampanha.class);
+            startActivity(intent);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
