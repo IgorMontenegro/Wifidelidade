@@ -20,7 +20,6 @@
             android:id="@+id/tbMain"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/toolbar_rounded_corners"
             android:elevation="4dp"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
     </android.support.design.widget.AppBarLayout>
@@ -39,8 +38,7 @@
         android:layout_height="3dp"
         android:id="@+id/progressBar"
         android:layout_below="@+id/progressBar"
-        android:layout_centerHorizontal="true"
-        android:progressDrawable="@drawable/custom_progressbar"/>
+        android:layout_centerHorizontal="true"/>
 
         <!--android:layout_width="fill_parent"
         android:layout_height="wrap_content"

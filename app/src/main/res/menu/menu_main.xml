@@ -2,17 +2,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="br.ufg.inf.dsdm.kleudson.wififacil.telas.MainActivity">
-<!--    <item
-        android:id="@+id/action_settings"
+
+
+    <item
+        android:id="@+id/ic_pesssoa"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />-->
+        android:title="Mais"
+        android:icon="@drawable/ic_pessoa"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/ic_android"
+        android:orderInCategory="100"
+        android:title="Mais"
+        android:icon="@drawable/ic_android"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/wifi"
+        android:orderInCategory="100"
+        android:title="Mais"
+        android:icon="@drawable/ic_wifi"
+        app:showAsAction="always"
+        />
 
     <item
         android:id="@+id/plus"
         android:orderInCategory="100"
         android:title="Mais"
-        android:icon="@drawable/plus"
+        android:icon="@drawable/ic_plus"
         app:showAsAction="always"
         />
 

@@ -9,14 +9,5 @@
     tools:context="br.ufg.inf.dsdm.kleudson.wififacil.telas.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/ad_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="false"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id" />
-
 
 </RelativeLayout>
