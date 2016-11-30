@@ -35,7 +35,7 @@ public class ActCadastro extends AppCompatActivity implements View.OnClickListen
         edtTxtSSID = (EditText)findViewById(R.id.edtTxtSSID);
         edtTxtSenha = (EditText)findViewById(R.id.edtTxtSenha);
 
-        mToolbar.setTitle("WiFi Fácil");
+        mToolbar.setTitle("WiFi Fácil - Gerar QRCode");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         btnGerarQrCode.setOnClickListener(this);

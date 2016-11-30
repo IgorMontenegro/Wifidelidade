@@ -31,6 +31,10 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".telas.ActCampanha"
+            android:label="@string/title_activity_act_campanha"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

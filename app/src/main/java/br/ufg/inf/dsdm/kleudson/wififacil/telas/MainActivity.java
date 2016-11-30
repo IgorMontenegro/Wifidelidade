@@ -154,10 +154,18 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.plus) {
+        if (id == R.id.ic_plus) {
             Intent intent = new Intent(this, ActCadastro.class);
             startActivity(intent);
             return true;
+        } else if (id == R.id.ic_produto) {
+            Intent intent = new Intent(this, ActCampanha.class);
+            startActivity(intent);
+            return true;
+        } else if (id == R.id.ic_pesssoa) {
+
+        } else if (id == R.id.ic_campanha) {
+
         }
 
         return super.onOptionsItemSelected(item);
