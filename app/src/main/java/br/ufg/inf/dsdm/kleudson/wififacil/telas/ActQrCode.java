@@ -84,9 +84,9 @@ public class ActQrCode extends AppCompatActivity {
         try {
             bitmap = encodeAsBitmap(qrCode);
             imgQrCode.setImageBitmap(bitmap);
-            Toast.makeText(getApplicationContext(), "QR Code Gerado com Sucesso!!!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "QR Code Gerado com Sucesso!!!", Toast.LENGTH_SHORT).show();
         } catch (RuntimeException e) {
-            Toast.makeText(getApplicationContext(), "Não foi possível gerar o QrCode :(", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Não foi possível gerar o QrCode :(", Toast.LENGTH_SHORT).show();
             throw e;
         } catch (Exception e) {
             throw new RuntimeExecutionException(e);
