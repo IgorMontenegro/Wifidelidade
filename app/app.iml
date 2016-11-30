@@ -159,5 +159,6 @@
     <orderEntry type="library" exported="" name="realm-annotations-2.2.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-ads-9.4.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-lite-9.4.0" level="project" />
+    <orderEntry type="library" exported="" name="android-android-24" level="project" />
   </component>
 </module>

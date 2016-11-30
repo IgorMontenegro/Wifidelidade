@@ -6,10 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.RuntimeExecutionException;
@@ -33,7 +31,6 @@ public class ActQrCode extends AppCompatActivity {
     public final static int HEIGHT = 400;
 
     protected final static int TIMER_RUNTIME = 4000;
-    protected ProgressBar mProgressBar;
 
     Bitmap bm;
     Bitmap bitmap;
@@ -48,8 +45,6 @@ public class ActQrCode extends AppCompatActivity {
         super.onCreate(icicle);
         setContentView(R.layout.act_qr_code);
 
-
-        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         Toolbar mToolbar = (Toolbar) findViewById(R.id.tbMain);
         mToolbar.setTitle("WiFi Fácil");
         setSupportActionBar(mToolbar);
