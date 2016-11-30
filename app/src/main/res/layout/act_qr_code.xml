@@ -32,15 +32,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.96" />
 
-    <ProgressBar
-        style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:id="@+id/progressBar"
-        android:layout_below="@+id/progressBar"
-        android:layout_centerHorizontal="true"/>
-
-        <!--android:layout_width="fill_parent"
+    <!--android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/progressBar"
         android:indeterminate="false"
