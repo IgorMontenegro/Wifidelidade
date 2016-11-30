@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_c59fc467aaa3ffc841cebca893afb5299652ba6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,30 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_6fc6254c48c4c7b2320f4e91ff440d72c6904aaf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
         <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_5592b8afe7c6b6ab77e4b78d127507119ecec3d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kleudson\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_7daf14b56d7313998dc5c1c5a7ee453b9b442065\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,21 +57,84 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_79898db594bfa89d8d8321b4e455c35358222273\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="b15f898c9047f9d612a63000126b485dd024eaac">
         <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_40111253b656f1abdb2d67afa23cdbfc57a37a89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_46bf1eeb46ebb0fd9275dbc2990630e5e80a81e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_52ccbf07a97cc90ceadfe2cb0c23379c713a12f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94a3e7f9a956564abd1da84606fb3d2e7209afc0">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9c9833934f665ac22f5987de0183f7d41879806a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_4ed504d5006a80ed01f2cb8f353ffc36aaa8d234\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_c59fc467aaa3ffc841cebca893afb5299652ba6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_6fc6254c48c4c7b2320f4e91ff440d72c6904aaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kleudson\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_7daf14b56d7313998dc5c1c5a7ee453b9b442065\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_79898db594bfa89d8d8321b4e455c35358222273\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,15 +162,6 @@
         revision="23.0.3"
         sha1="cd37966f459edfec260524927da6c63e9bd9e2ff">
         <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-2.2.0_396d39093f20015d9f4021492ca2b04988a980f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_46bf1eeb46ebb0fd9275dbc2990630e5e80a81e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -169,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="b17651a2272f20d8c56aa838f641068258dd3937">
+        sha1="fccb6b74026034c1e9f68c7ee8443f72650dbf1f">
         <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_aa45ff7a5d76193d822ee6dd33423f6c8d1d23f6\classes.dex" />
     </item>
     <item
@@ -207,33 +234,6 @@
         revision="23.0.3"
         sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
         <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_af5459755ec538c4e2342402005003866bdd5299\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_52ccbf07a97cc90ceadfe2cb0c23379c713a12f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="094f02150f066f78687f27023c0c7cb5b03266a9">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9c9833934f665ac22f5987de0183f7d41879806a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="E:\Developer\Tacs2016\Wifidelidade\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_4ed504d5006a80ed01f2cb8f353ffc36aaa8d234\classes.dex" />
     </item>
     <item
         is-multidex="true"
