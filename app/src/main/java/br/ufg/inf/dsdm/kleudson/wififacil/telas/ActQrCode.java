@@ -46,7 +46,7 @@ public class ActQrCode extends AppCompatActivity {
         setContentView(R.layout.act_qr_code);
 
         Toolbar mToolbar = (Toolbar) findViewById(R.id.tbMain);
-        mToolbar.setTitle("WiFi Fácil");
+        mToolbar.setTitle("WiFi Fácil - QR Code");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -142,6 +142,8 @@ public class ActQrCode extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == android.R.id.home) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
             finish();
         }
         return true;

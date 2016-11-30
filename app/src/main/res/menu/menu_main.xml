@@ -3,6 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="br.ufg.inf.dsdm.kleudson.wififacil.telas.MainActivity">
 
+    <item
+        android:id="@+id/ic_campanha"
+        android:orderInCategory="100"
+        android:title="Mais"
+        android:icon="@drawable/ic_campanha"
+        app:showAsAction="always"
+        />
 
     <item
         android:id="@+id/ic_pesssoa"
@@ -13,23 +20,15 @@
         />
 
     <item
-        android:id="@+id/ic_android"
+        android:id="@+id/ic_produto"
         android:orderInCategory="100"
         android:title="Mais"
-        android:icon="@drawable/ic_android"
+        android:icon="@drawable/ic_produto"
         app:showAsAction="always"
         />
 
     <item
-        android:id="@+id/wifi"
-        android:orderInCategory="100"
-        android:title="Mais"
-        android:icon="@drawable/ic_wifi"
-        app:showAsAction="always"
-        />
-
-    <item
-        android:id="@+id/plus"
+        android:id="@+id/ic_plus"
         android:orderInCategory="100"
         android:title="Mais"
         android:icon="@drawable/ic_plus"
