@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.android.application'
 apply plugin: 'sonar-runner'
+apply plugin: 'realm-android'
 
 sonarRunner {
     sonarProperties {
@@ -20,7 +21,11 @@ repositories {
 android {
     compileSdkVersion 24
     buildToolsVersion "23.0.3"
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> refs/remotes/kleudson/developer
     lintOptions {
         abortOnError false
     }

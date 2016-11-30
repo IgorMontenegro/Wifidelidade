@@ -4,4 +4,7 @@
     <string name="action_salvar">Salvar</string>
     <string name="action_email">Enviar Email</string>
     <string name="banner_ad_unit_id">ca-app-pub-4469857961215019/9883377088</string>
+    <string name="title_activity_act_campanha">ActCampanha</string>
+    <string name="title_activity_act_produtos">ActProdutos</string>
+    <string name="title_activity_act_usuario">ActUsuario</string>
 </resources>

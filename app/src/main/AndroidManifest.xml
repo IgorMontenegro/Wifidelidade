@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".telas.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,14 +22,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActCadastro" />
-        <activity android:name=".ActQrCode"
-            android:screenOrientation="portrait"
-            android:configChanges="orientation"></activity>
-
-        <activity android:name="com.google.android.gms.ads.AdActivity"
-            android:theme="@android:style/Theme.Translucent"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name=".telas.ActCadastro" />
+        <activity
+            android:name=".telas.ActQrCode"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".telas.ActCampanha"
+            android:label="@string/title_activity_act_campanha"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".telas.ActProdutos"
+            android:label="@string/title_activity_act_produtos"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".telas.ActUsuario"
+            android:label="@string/title_activity_act_usuario"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
